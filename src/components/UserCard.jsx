@@ -46,3 +46,26 @@ export default function UserCard({ user }) {
     </article>
   );
 }
+
+// import { Link } from 'react-router-dom';
+
+// export default function UserCard({ user }) {
+//   return (
+//     <article className="user-card">
+//       <div className="user-card-top">
+//         <div>
+//           <p className="eyebrow">@{user.username}</p>
+//           <h2>{user.name}</h2>
+//         </div>
+//         <span className="badge">#{user.id}</span>
+//       </div>
+//       <ul className="user-meta">
+//         <li><strong>Email:</strong> {user.email}</li>
+//         <li><strong>Phone:</strong> {user.phone}</li>
+//         <li><strong>City:</strong> {user.address?.city}</li>
+//         <li><strong>Company:</strong> {user.company?.name}</li>
+//       </ul>
+//       <Link className="detail-link" to={`/users/${user.id}`}>View details</Link>
+//     </article>
+//   );
+// }

@@ -53,3 +53,21 @@ export default function SearchBar({
     </div>
   );
 }
+
+
+
+// export default function SearchBar({ value, onChange, delay = 400 }) {
+//   return (
+//     <div className="panel search-panel">
+//       <label className="field-label" htmlFor="search-users">Search users</label>
+//       <input
+//         id="search-users"
+//         className="search-input"
+//         type="text"
+//         value={value}
+//         onChange={(e) => onChange(e.target.value)}
+//         placeholder={`Search by name, email, company, city... (${delay}ms debounce)`}
+//       />
+//     </div>
+//   );
+// }

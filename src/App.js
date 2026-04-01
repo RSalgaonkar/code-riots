@@ -15,6 +15,8 @@ import SummaryBar from './components/SummaryBar';
 
 const USERS_API = 'https://jsonplaceholder.typicode.com/users';
 
+// import UsersPage from './pages/UsersPage';
+// import UserDetailPage from './pages/UserDetailPage';
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -124,6 +126,11 @@ function App() {
       <Skills />
       <Projects />
       <Contact /> */}
+      {/* <Routes>
+        <Route path="/" element={<UsersPage />} />
+        <Route path="/users/:id" element={<UserDetailPage />} />
+      </Routes> */}
+
       <div className="app-shell">
         <header className="hero">
           <div>

@@ -55,3 +55,25 @@ export default function UserList({ users, loading, error, onRetry, searchTerm })
     </div>
   );
 }
+
+
+// import UserCard from './UserCard';
+
+// export default function UserList({ users }) {
+//   if (!users.length) {
+//     return (
+//       <div className="empty-state">
+//         <h2>No matching users</h2>
+//         <p>Try a different search term or reset the filters.</p>
+//       </div>
+//     );
+//   }
+
+//   return (
+//     <section className="user-grid">
+//       {users.map((user) => (
+//         <UserCard key={user.id} user={user} />
+//       ))}
+//     </section>
+//   );
+// }
