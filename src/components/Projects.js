@@ -7,21 +7,21 @@ const Projects = () => {
       desc: 'MERN stack with Material UI & Redux',
       img: 'chat-screenshot.png', // Add your image
       live: 'https://your-chat-app.netlify.app',
-      code: 'https://github.com/yourusername/chat-app'
+      code: 'https://github.com/RSalgaonkar/chat-app'
     },
     {
       title: 'Expense Tracker',
       desc: 'React frontend + Node API + MongoDB auth',
       img: 'expense-screenshot.png',
       live: 'https://your-expense.netlify.app',
-      code: 'https://github.com/yourusername/expense-tracker'
+      code: 'https://github.com/RSalgaonkar/Expense-Tracker'
     },
     {
       title: 'Dashboard with AG Grid',
       desc: 'React, Tailwind, AG Grid integration',
       img: 'dashboard-screenshot.png',
       live: '#',
-      code: 'https://github.com/yourusername/dashboard'
+      code: 'https://github.com/RSalgaonkar/dashboard'
     }
   ];
 
